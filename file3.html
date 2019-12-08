@@ -5,8 +5,19 @@
     <style> 
         .wrapper{
             display: flex;
+            margin: 0;
         }
-        
+        .navigation{
+            background-color: gray;
+            height:  100vh;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;           
+        }
+        .content-wrapper{
+            padding:10px;
+        }
         </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,8 +27,9 @@
 <body class="wrapper">
     <nav class="navigation"> 
         <h1>Barbara Mikołajek</h1>
+        <p>Copyright 2019</p>
     </nav>
-    <main>
+    <main class="content-wrapper">
     <p class="description"> 
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime rem sed voluptatum sunt recusandae accusamus autem dolor delectus hic tenetur minima similique aut nihil libero quasi, molestiae aliquid! Laboriosam, praesentium!
     </p> 

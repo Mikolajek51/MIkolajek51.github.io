@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Grid</title>
+		<style>
+			body * {
+				border: 1px solid black;
+			}
+			.main__container {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				grid-gap: 10px;
+			}
+			aside {
+				grid-column-end: span 1;
+				grid-row-end: span 2;
+			}
+			.box {
+				width: 100%;
+				height: 100px;
+				max-width: 500px;
+				min-width: 800px;
+				min-height: 100vh;
+			}
+			.box2 {
+				background-color: blueviolet;
+				width: calc(50% + 100px);
+				height: 150px;
+				padding: 10px;
+				border: 5px dotted green;
+				margin: 10px;
+				box-sizing: border-box;
+			}
+			body {
+				box-sizing: border-box;
+			}
+			* {
+				box-sizing: inherit;
+			}
+		</style>
+	</head>
+	<body>
+		<header class="box">Header</header>
+		<nav class="box2">Nav</nav>
+		<div class="main__container">
+			<section>Section</section>
+			<aside>Aside</aside>
+			<article>Article</article>
+		</div>
+		<footer>Footer</footer>
+	</body>
+</html>

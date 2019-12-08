@@ -1,59 +1,26 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" type="text/css"
-    href="style.css"/>
-    <style> 
-        body {
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            background-color: red;
-        }
-        h1{
-            color: white;
-        }
-        .title{
-            color: blue;
-        }
-        #test{
-            color: yellow;
-            font-weight: bold;
-        }
-        .title.small{
-            font-size: 50%;
-        }
-        p, h1{
-            border: 2px solid white;
-        }
-        .rodzic .potomek{
-            font-size: large;
-        }
-        p{
-            transition: color 3s;
-        }
-        p :hover{
-            color:teal;
-        }        
-        </style>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CV: Mikołajek</title>
-</head>
-<body>
-    <div class="rodzic">
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime rem sed voluptatum sunt recusandae accusamus autem dolor delectus hic tenetur minima similique aut nihil libero quasi, molestiae aliquid! Laboriosam, praesentium!
-    </p>
-    <h1 class="title">Barbara Mikołajek</h1>
-    <h1>Tymczasowe</h1>
-    <p class="title small">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime rem sed voluptatum sunt recusandae accusamus autem dolor delectus hic tenetur minima similique aut nihil libero quasi, molestiae aliquid! Laboriosam, praesentium!
-    </p>
-    <p id="test" class="title">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime rem sed voluptatum sunt recusandae accusamus autem dolor delectus hic tenetur minima similique aut nihil libero quasi, molestiae aliquid! Laboriosam, praesentium!
-        </p>
-    </p>
-    <p id="test" class="title">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime rem sed voluptatum sunt recusandae accusamus autem dolor delectus hic tenetur minima similique aut nihil libero quasi, molestiae aliquid! Laboriosam, praesentium!
-        </p>
-</body>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<style>
+			.wrapper {
+				display: flex;
+			}
+		</style>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>CV: Mikołajek</title>
+	</head>
+	<body class="wrapper">
+		<nav class="navigation">
+			<h1>Barbara Mikołajek</h1>
+		</nav>
+		<main>
+			<p class="description">
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa odit aspernatur illum corrupti a nemo, quia
+				fugiat ullam earum iste amet. Placeat ab facilis autem vero, ratione sapiente quis id!
+			</p>
+		</main>
+	</body>
 </html>
